@@ -1,0 +1,129 @@
+### YamlMime:TableOfContent
+items:
+- uid: ASE_Assignment
+  name: ASE_Assignment
+  type: Namespace
+  items:
+  - uid: ASE_Assignment.AppArray
+    name: AppArray
+    type: Class
+  - uid: ASE_Assignment.AppBool
+    name: AppBool
+    type: Class
+  - uid: ASE_Assignment.AppCanvas
+    name: AppCanvas
+    type: Class
+  - uid: ASE_Assignment.AppCircle
+    name: AppCircle
+    type: Class
+  - uid: ASE_Assignment.AppClear
+    name: AppClear
+    type: Class
+  - uid: ASE_Assignment.AppCommandFactory
+    name: AppCommandFactory
+    type: Class
+  - uid: ASE_Assignment.AppCompoundCommand
+    name: AppCompoundCommand
+    type: Class
+  - uid: ASE_Assignment.AppConditionalCommand
+    name: AppConditionalCommand
+    type: Class
+  - uid: ASE_Assignment.AppElse
+    name: AppElse
+    type: Class
+  - uid: ASE_Assignment.AppEnd
+    name: AppEnd
+    type: Class
+  - uid: ASE_Assignment.AppFor
+    name: AppFor
+    type: Class
+  - uid: ASE_Assignment.AppIf
+    name: AppIf
+    type: Class
+  - uid: ASE_Assignment.AppInt
+    name: AppInt
+    type: Class
+  - uid: ASE_Assignment.AppMethod
+    name: AppMethod
+    type: Class
+  - uid: ASE_Assignment.AppMoveTo
+    name: AppMoveTo
+    type: Class
+  - uid: ASE_Assignment.AppParser
+    name: AppParser
+    type: Class
+  - uid: ASE_Assignment.AppPeek
+    name: AppPeek
+    type: Class
+  - uid: ASE_Assignment.AppPoke
+    name: AppPoke
+    type: Class
+  - uid: ASE_Assignment.AppReal
+    name: AppReal
+    type: Class
+  - uid: ASE_Assignment.AppRect
+    name: AppRect
+    type: Class
+  - uid: ASE_Assignment.AppReset
+    name: AppReset
+    type: Class
+  - uid: ASE_Assignment.AppStoredProgram
+    name: AppStoredProgram
+    type: Class
+  - uid: ASE_Assignment.AppTri
+    name: AppTri
+    type: Class
+  - uid: ASE_Assignment.AppWhile
+    name: AppWhile
+    type: Class
+  - uid: ASE_Assignment.AppWriteText
+    name: AppWriteText
+    type: Class
+  - uid: ASE_Assignment.Form1
+    name: Form1
+    type: Class
+- uid: ASE_Assignment_Tests
+  name: ASE_Assignment_Tests
+  type: Namespace
+  items:
+  - uid: ASE_Assignment_Tests.AppArrayTests
+    name: AppArrayTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppBooleanTests
+    name: AppBooleanTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppCompoundCommandTests
+    name: AppCompoundCommandTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppElseTests
+    name: AppElseTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppForTests
+    name: AppForTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppIfTests
+    name: AppIfTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppIntTests
+    name: AppIntTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppMethodTests
+    name: AppMethodTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppRealTests
+    name: AppRealTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppStoredProgramTests
+    name: AppStoredProgramTests
+    type: Class
+  - uid: ASE_Assignment_Tests.AppWhileTests
+    name: AppWhileTests
+    type: Class
+- uid: Part1Tests
+  name: Part1Tests
+  type: Namespace
+  items:
+  - uid: Part1Tests.Tests
+    name: Tests
+    type: Class
+memberLayout: SamePage

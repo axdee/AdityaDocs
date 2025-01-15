@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests
+  commentId: T:ASE_Assignment_Tests.AppCompoundCommandTests
+  id: AppCompoundCommandTests
+  parent: ASE_Assignment_Tests
+  children:
+  - ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
+  - ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  - ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+  - ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance
+  - ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  langs:
+  - csharp
+  - vb
+  name: AppCompoundCommandTests
+  nameWithType: AppCompoundCommandTests
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: AppCompoundCommandTests
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 7
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [TestFixture]
+
+      public class AppCompoundCommandTests
+    content.vb: >-
+      <TestFixture>
+
+      Public Class AppCompoundCommandTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NUnit.Framework.TestFixtureAttribute
+    ctor: NUnit.Framework.TestFixtureAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance
+  commentId: M:ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance
+  id: Constructor_ShouldCreateInstance
+  parent: ASE_Assignment_Tests.AppCompoundCommandTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldCreateInstance()
+  nameWithType: AppCompoundCommandTests.Constructor_ShouldCreateInstance()
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: Constructor_ShouldCreateInstance
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 11
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void Constructor_ShouldCreateInstance()
+    content.vb: >-
+      <Test>
+
+      Public Sub Constructor_ShouldCreateInstance()
+  overload: ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  commentId: M:ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  id: CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  parent: ASE_Assignment_Tests.AppCompoundCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CorrCommand_GetAndSet_ShouldStoreCorrectValue()
+  nameWithType: AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue()
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: CorrCommand_GetAndSet_ShouldStoreCorrectValue
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 23
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void CorrCommand_GetAndSet_ShouldStoreCorrectValue()
+    content.vb: >-
+      <Test>
+
+      Public Sub CorrCommand_GetAndSet_ShouldStoreCorrectValue()
+  overload: ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+  commentId: M:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+  id: CheckParameters_ValidParameter_ShouldNotThrowException
+  parent: ASE_Assignment_Tests.AppCompoundCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ValidParameter_ShouldNotThrowException()
+  nameWithType: AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException()
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: CheckParameters_ValidParameter_ShouldNotThrowException
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 37
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void CheckParameters_ValidParameter_ShouldNotThrowException()
+    content.vb: >-
+      <Test>
+
+      Public Sub CheckParameters_ValidParameter_ShouldNotThrowException()
+  overload: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  commentId: M:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  id: CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  parent: ASE_Assignment_Tests.AppCompoundCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_InvalidParameterCount_ShouldThrowCommandException()
+  nameWithType: AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException()
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 49
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void CheckParameters_InvalidParameterCount_ShouldThrowCommandException()
+    content.vb: >-
+      <Test>
+
+      Public Sub CheckParameters_InvalidParameterCount_ShouldThrowCommandException()
+  overload: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
+  commentId: M:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
+  id: CheckParameters_InvalidContent_ShouldThrowCommandException
+  parent: ASE_Assignment_Tests.AppCompoundCommandTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_InvalidContent_ShouldThrowCommandException()
+  nameWithType: AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException()
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment/Part1Tests/AppCompoundCommandTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-axdee
+    id: CheckParameters_InvalidContent_ShouldThrowCommandException
+    path: ../Part1Tests/AppCompoundCommandTests.cs
+    startLine: 62
+  assemblies:
+  - ASE Assignment Tests
+  namespace: ASE_Assignment_Tests
+  syntax:
+    content: >-
+      [Test]
+
+      public void CheckParameters_InvalidContent_ShouldThrowCommandException()
+    content.vb: >-
+      <Test>
+
+      Public Sub CheckParameters_InvalidContent_ShouldThrowCommandException()
+  overload: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException*
+  attributes:
+  - type: NUnit.Framework.TestAttribute
+    ctor: NUnit.Framework.TestAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Assignment_Tests
+  commentId: N:ASE_Assignment_Tests
+  href: ASE_Assignment_Tests.html
+  name: ASE_Assignment_Tests
+  nameWithType: ASE_Assignment_Tests
+  fullName: ASE_Assignment_Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance*
+  commentId: Overload:ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance
+  href: ASE_Assignment_Tests.AppCompoundCommandTests.html#ASE_Assignment_Tests_AppCompoundCommandTests_Constructor_ShouldCreateInstance
+  name: Constructor_ShouldCreateInstance
+  nameWithType: AppCompoundCommandTests.Constructor_ShouldCreateInstance
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.Constructor_ShouldCreateInstance
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue*
+  commentId: Overload:ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  href: ASE_Assignment_Tests.AppCompoundCommandTests.html#ASE_Assignment_Tests_AppCompoundCommandTests_CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  name: CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  nameWithType: AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CorrCommand_GetAndSet_ShouldStoreCorrectValue
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException*
+  commentId: Overload:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+  href: ASE_Assignment_Tests.AppCompoundCommandTests.html#ASE_Assignment_Tests_AppCompoundCommandTests_CheckParameters_ValidParameter_ShouldNotThrowException
+  name: CheckParameters_ValidParameter_ShouldNotThrowException
+  nameWithType: AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_ValidParameter_ShouldNotThrowException
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException*
+  commentId: Overload:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  href: ASE_Assignment_Tests.AppCompoundCommandTests.html#ASE_Assignment_Tests_AppCompoundCommandTests_CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  name: CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  nameWithType: AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidParameterCount_ShouldThrowCommandException
+- uid: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException*
+  commentId: Overload:ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
+  href: ASE_Assignment_Tests.AppCompoundCommandTests.html#ASE_Assignment_Tests_AppCompoundCommandTests_CheckParameters_InvalidContent_ShouldThrowCommandException
+  name: CheckParameters_InvalidContent_ShouldThrowCommandException
+  nameWithType: AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
+  fullName: ASE_Assignment_Tests.AppCompoundCommandTests.CheckParameters_InvalidContent_ShouldThrowCommandException
